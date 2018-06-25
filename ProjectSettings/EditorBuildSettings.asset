@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Sound.unity
+    guid: 9c2a3753e675e014d844c4232830e903
+  - enabled: 1
+    path: Assets/Welcome.unity
+    guid: 9924a4620ced9ce47b8a9be56f1f770e
+  - enabled: 1
+    path: Assets/Playing.unity
+    guid: 4ebe25f5af28059439ef031a753b203f
+  - enabled: 1
+    path: Assets/End.unity
+    guid: 82944e2226bcfb542bffcd6739bfe07a
