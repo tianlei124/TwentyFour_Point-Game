@@ -33,7 +33,8 @@ public class End : MonoBehaviour
     }
     public void onPlayClick()
     {
-        SceneManager.LoadScene("End", LoadSceneMode.Single);//点击场景之后开始切换
+        //点击切换
+        SceneManager.LoadScene("End", LoadSceneMode.Single);
     }
 
 }
