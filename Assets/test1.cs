@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class test1 : MonoBehaviour {
     private int b;
-	// Use this for initialization
+	// 使用此方法初始化
 	void Start () {
         b = GameObject.Find("Cube").GetComponent<test>().a;
     }
 	
-	// Update is called once per frame
+	//更新方法每帧调用一次
 	void Update () {
      
         print(b);
