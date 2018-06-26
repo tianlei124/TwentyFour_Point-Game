@@ -8,7 +8,7 @@ public class Poker3 : MonoBehaviour
 {
 
     public Sprite[] PokerSprites;//定义一个数组，用来存放13张扑克
-    private Image imgPoker;//这个是显示的poker图片 
+    public Image imgPoker;//这个是显示的poker图片 
     public int randPoker3;//用来随机生成的种子                      
     void Start()
     {
