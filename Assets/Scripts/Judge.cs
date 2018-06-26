@@ -10,7 +10,7 @@ public class Judge : MonoBehaviour {
 	void Start () {
      
     }
-    void GetCard()//把四张牌的值赋给四个变量，+1是因为索引是从0开始,这个函数要在Update里面使用，因为这四个值随时变化
+   public void GetCard()//把四张牌的值赋给四个变量，+1是因为索引是从0开始,这个函数要在Update里面使用，因为这四个值随时变化
     {
         Card1 = GameObject.Find("Poker1").GetComponent<Poker1>().randPoker1 + 1;
         Card2 = GameObject.Find("Poker2").GetComponent<Poker2>().randPoker2 + 1;
